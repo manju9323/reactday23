@@ -1,0 +1,1 @@
+export const ValData=[{id:'1',year:2001,v:100},{id:'2',year:2002,v:150},{id:'3',year:2003,v:350},{id:'4',year:2004,v:350},{id:'1',year:2005,v:500}]

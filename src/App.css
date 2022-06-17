@@ -1,38 +1,207 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.side{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width:240px;
+align-items: center;
+background-color: #4E73DF;
+text-decoration: wavy;
+flex-shrink:0;
+height:100vh;
+}
+.navi{
+  display: flex;
+  color: beige;
+  padding: 15px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-decoration: wavy;
 }
+.navi:hover{
+  background-color: dodgerblue;
+  width:210px; 
+}
+.app{
+display: flex;
+flex-direction:row;
+}
+.mmm{
+  background-color: cornflowerblue;
+  width: 210px;
+  border-radius: 0.9em;
+}
+.main{
+width:2000px;
+}
+.tab{display: flex;
+  margin:10px;
+  flex-direction: row;
+  justify-content:space-evenly;
+  background-color: rgb(247, 239, 239);
+ margin-right:30px;
+ margin-left: 30px;
+}
+.tab div{margin:20px;
+padding: 20px;
+background-color: #fff;
+margin: 10px;
+border-top-left-radius:5px;
+ border-bottom-left-radius:5px;
+ border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+}
+.tab1{flex-grow:1;color: blue;}
+.tab2{flex-grow:1;color: blue;}
+.table{
+  height:300px;
+}
+.header{
+  display: flex;
+  
+  align-items:flex-start;
+}
+.in{
+  border-style: none;
+  background-color: rgb(248, 240, 240);
+  height: 30px;
+  width:200px;
+  border-top-left-radius:5px;
+border-bottom-left-radius:5px;
 
-.App-link {
-  color: #61dafb;
 }
+.blue{
+  background-color: #4E73DF;
+  border-style: none;
+  height: 30px;
+  margin-top: 1px;
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+}
+.head{
+  display: flex;
+  padding:20px;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+body{
+  background-color: rgb(241, 238, 233);
+}
+.h1{padding-left: 40px;}
+.menu{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+margin:20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
 }
+.menu div{
+padding: 5px;
+margin:5px;
+height:90px;
+width:290px;
+background-color: #fff;
+border-radius: 15px;
+}
+.mass1{
+  border-left: 5px solid rgb(127, 146, 255);
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  color: blue;
+  }
+  .mass11{
+    
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+.mass2{
+border-left: 5px solid aquamarine;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  color: blue;
+}
+.mass3{
+  flex-direction: column;
+  border-left: 5px solid rgb(35, 185, 211);
+    display: flex;
+ align-items: center;
+  color: blue;
+  }
+.mass4{
+  flex-direction: column;
+ border-left:5px solid rgb(240, 210, 42); 
+   display: flex;
+ align-items: center;
+ color: blue;
+ }
+ input{
+  width:20px;
+  height: 20px;
+ }
+ .red{
+  width:479px;
+  border:rgb(241, 237, 237);
+border-radius: 5px;
+  background-color: rgb(197, 221, 221) ;
+  border-left:100px solid red;
+ }
+ .yel{
+  width:479px;
+  border:rgb(241, 237, 237);
+border-radius: 5px;
+  background-color: rgb(197, 221, 221) ;
+  border-left:200px solid rgb(207, 221, 77);
+ }
+ .blu{width:479px;
+  border:rgb(241, 237, 237);
+border-radius: 5px;
+  background-color: rgb(197, 221, 221) ;
+  border-left:350px solid rgb(36, 92, 212);}
+
+  .mint{
+width:479px;
+  border:rgb(241, 237, 237);
+border-radius: 5px;
+  background-color: rgb(197, 221, 221) ;
+  border-left:450px solid rgb(20, 223, 172);
+  }
+  .aqu{
+    width:479px;
+    border:rgb(241, 237, 237);
+  border-radius: 5px;
+    background-color: rgb(197, 221, 221) ;
+    border-left:400px solid rgb(20, 223, 223);
+  }
+  .fina{
+    display: flex;
+    justify-content: space-evenly;
+  flex-direction:row;
+margin:20px;
+
+  }
+  .fin{
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+   margin: 10px;;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .ill{
+    display: flex;
+    padding: 10px;;
+  flex-direction: column;
+  flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  h3{
+    color: blue;
+  }
+  hr{
+    border:1px solid black
+  }
